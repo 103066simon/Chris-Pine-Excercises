@@ -3,6 +3,10 @@ def english_number(number)
     puts "Positive numbers only at the moment please. Maybe in the future."
   end
   
+  if number <= 1000
+    puts "Whoah! Way too high at the moment! Try below 1000."
+  end
+  
   if number == 0
     puts "Zero"
   end
